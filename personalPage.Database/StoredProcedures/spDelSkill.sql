@@ -1,0 +1,8 @@
+CREATE PROCEDURE spDelSkill
+    @Id INT
+AS
+BEGIN
+    DELETE FROM Skills
+    WHERE Id = @Id;
+END
+GO

@@ -1,0 +1,6 @@
+CREATE TABLE Skills (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Skill NVARCHAR(100) NOT NULL,
+    Qualification NVARCHAR(100) NOT NULL,
+    Description NVARCHAR(MAX) NOT NULL
+);

@@ -1,0 +1,44 @@
+.intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.intro-table {
+    width: 100%;
+    max-width: 800px; /* Adjust max-width as per your layout */
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+.intro-content {
+    padding: 20px;
+    text-align: left;
+}
+
+    .intro-content h1 {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    .intro-content h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .intro-content h3 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    .intro-content p {
+        font-size: 1em;
+    }
+
+    .intro-content img {
+        display: block;
+        width: 100%;
+        border-radius: 10px; /* Rounded corners */
+        margin-top: 20px; /* Adjust margin as per your design */
+    }
